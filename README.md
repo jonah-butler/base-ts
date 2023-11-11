@@ -1,9 +1,8 @@
-# Base TS Project
+# isDeepEqual
 
-This is a base TS project which includes:
+Evaluate equality between objects of unknown depth that can include key/value types of any combination that include:
 
-- @types/node
-- typescript
-- basic tsconfig.json to get up and running
-
-#### .ts in /src and output in /dist
+- strings
+- numbers
+- objects
+- arrays
